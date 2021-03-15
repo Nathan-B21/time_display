@@ -1,0 +1,36 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+h1{
+    color: blue;
+}
+
+html, body{
+    height:100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#section1{
+    display:inline-flex;
+    height:50px;
+    margin-top:100px;
+    width: 200px;
+    border-style:solid;
+    justify-content: center;
+}
+
+
+#displayTimeandDate{
+    display: inline-flex;
+    height: 300px;
+    margin-top:-350px;
+    width:400px;
+    border-style:double;
+    justify-content: center;
+    font-size:large;
+
+}
